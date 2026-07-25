@@ -1,0 +1,76 @@
+############################################
+### Donkan's i3blocks configuration file ###
+############################################
+
+##########################################################
+### i3blocks guide : https://vivien.github.io/i3blocks ###
+##########################################################
+
+separator=true
+separator_block_width=5
+
+[cpu_temp]
+command=sensors | awk '/Package id 0/ {gsub(/[+°C ]/, "", $4); print "CPU:"$4"°C"}'
+interval=5
+label=
+color=#FFFFFF
+
+[gpu_temp]
+command=nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader | awk '{print "GPU:"$1"°C"}'
+interval=5
+label=
+color=#FFFFFF
+
+[ram]
+command=free -h | awk '/Mem:/ {print $3 "/" $2}'
+interval=5
+label=RAM:
+color=#FFFFFF
+
+[wifi]
+command=iwgetid wlp0s20f3 --raw 2>/dev/null || echo ""
+interval=10
+label=WIFI:
+color=#FF00FF
+
+[bluetooth]
+command=device=$(bluetoothctl info 2>/dev/null | grep "Name" | sed 's/.*Name: //'); [ -n "$device" ] && echo "BT:$device" || echo ""
+interval=1
+color=#0000FF
+
+[spotify]
+command=text=$(playerctl -p spotify metadata --format '{{ artist }} - {{ title }}' 2>/dev/null); [ -n "$text" ] && echo "$text" || echo ""
+interval=1
+color=#00FF00
+
+[volume]
+command=pactl get-sink-volume @DEFAULT_SINK@ | grep -o '[0-9]*%' | head -1
+interval=once
+signal=10
+label=VOL:
+color=#FFFF00
+
+[battery]
+command=echo "$(cat /sys/class/power_supply/BAT1/capacity)%"
+interval=30
+label=BAT:
+color=#00FFFF
+
+[date]
+command=date '+%d/%m/%Y'
+interval=1
+label=
+color=#FFFFFF
+
+[time]
+command=date '+%H:%M:%S'
+interval=1
+label=
+color=#FFFFFF
+
+[power]
+label=
+command=~/.config/i3blocks/scripts/power.sh
+interval=once
+signal=11
+color=#FF0000
