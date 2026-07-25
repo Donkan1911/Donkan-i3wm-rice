@@ -34,9 +34,6 @@ exec_always --no-startup-id xinput --set-prop "ROCCAT ROCCAT Kone Pro" "libinput
 # Mounts USB sticks and external hard drives automatically
 exec --no-startup-id udiskie -a
 
-# I don't know what this does
-exec --no-startup-id dex --autostart --environment i3
-
 # I forgot what this was for
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
