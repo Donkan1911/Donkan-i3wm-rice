@@ -3,6 +3,7 @@
 Hello future Donkan or random user of my i3wm rice, this is the first ever rice that I publish online so I hope you like it because I use it almost everyday 🫪🍚  
 Make sure to read all of this carefully unless you know what you're doing and I'm pretty sure all of what is below works
 
+
 Before you can clone this rice you have to install a few packages :
 
 i3-wm, 
@@ -39,6 +40,7 @@ Here's the command for Arch Linux users :
 sudo pacman -S git i3-wm i3blocks picom kitty feh udiskie xss-lock i3lock networkmanager network-manager-applet maim xclip pulseaudio xorg-xrandr xorg-xset xorg-setxkbmap xorg-xinput lm_sensors nvidia-utils wireless_tools bluez bluez-utils playerctl base-devel libx11 libxinerama libxft
 ```
 
+
 Here is a step by step guide to the installation :
 
 1. Clone the repo
@@ -65,6 +67,7 @@ chmod +x ~/dotfiles/i3blocks/scripts/power.sh
 ```
 
 4. To log into i3, pick i3 in your display manager or add "exec i3" to your .xinitrc file if you use startx
+
 
 
 To make sure that this rice matches your gear and machine, you will have to delete some options or change some settings :
