@@ -83,9 +83,9 @@ and find your mouse's exact name and replace "ROCCAT ROCCAT Kone Pro" with it an
 
 2. Battery block in ~/dotfiles/i3blocks/config
 
-How to adapt it: 
+How to adapt it: run
 ```bash
-run ls /sys/class/power_supply/ 
+ls /sys/class/power_supply/ 
 ```
 and replace "BAT1" by whatever shows up  
 If you are on a desktop computer with no battery, you can delete the block from the config
