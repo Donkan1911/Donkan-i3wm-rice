@@ -1,7 +1,7 @@
 <img width="3200" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/6494ea7b-c841-45f4-a712-6370e63383dc" />
 
 Hello future Donkan or random user of my i3wm rice, this is the first ever rice that I publish online so I hope you like it because I use it almost everyday 🫪🍚  
-Make sure to read all of this carefully unless you know what you're doing and I'm pretty sure all of what is below works
+Make sure to read all of this carefully unless you know what you're doing but I'm pretty sure all of what is below works
 
 
 Before you can clone this rice you have to install a few packages :
