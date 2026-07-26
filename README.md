@@ -118,6 +118,14 @@ to find the correct temperature label for your CPU, then replace "Package id 0" 
 
 7. GPU temperature block in ~/dotfiles/i3blocks/config
 
-How to change it : for Nvidia GPUs just make sure you have the Nvidia driver and nvidia-utils installed, for other GPUs I have absolutely no idea what to do so you can either do the research yourself or delete this block.
+How to change it: for Nvidia GPUs just make sure you have the Nvidia driver and nvidia-utils installed, for other GPUs I have absolutely no idea what to do so you can either do the research yourself or delete this block
+
+8. WIFI block in ~/dotfiles/i3blocks/config
+
+How to change it: run
+```bash
+ip link show
+```
+and replace "wlp0s20f3" with whatever shows up on your computer.
 
 I'm pretty sure that I didn't forget to mention any options that need to be adapted to your gear, but if I did, then good luck I guess 🫪
