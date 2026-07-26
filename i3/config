@@ -40,9 +40,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # Starts nm-applet for NetworkManager system tray integration
 exec --no-startup-id nm-applet
 
-# Runs the monitor xrandr config script
-exec --no-startup-id ~/.screenlayout/dual_monitor.sh
-
 #############
 ### i3bar ###
 #############
