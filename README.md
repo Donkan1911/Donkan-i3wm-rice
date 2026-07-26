@@ -35,10 +35,11 @@ libxinerama,
 libxft, 
 git
 ttf-dejavu
+noto-fonts-emoji
 
 Here's the command for Arch Linux users:
 ```bash
-sudo pacman -S git ttf-dejavu i3-wm i3blocks picom kitty feh udiskie xss-lock i3lock networkmanager network-manager-applet maim xclip pulseaudio xorg-xrandr xorg-xset xorg-setxkbmap xorg-xinput lm_sensors nvidia-utils wireless_tools bluez bluez-utils playerctl base-devel libx11 libxinerama libxft
+sudo pacman -S git noto-fonts-emoji ttf-dejavu i3-wm i3blocks picom kitty feh udiskie xss-lock i3lock networkmanager network-manager-applet maim xclip pulseaudio xorg-xrandr xorg-xset xorg-setxkbmap xorg-xinput lm_sensors nvidia-utils wireless_tools bluez bluez-utils playerctl base-devel libx11 libxinerama libxft
 ```
 
 
