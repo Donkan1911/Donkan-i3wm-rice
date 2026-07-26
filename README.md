@@ -32,22 +32,26 @@ libxinerama,
 libxft, 
 git
 
-Here's the command for Arch Linux users : sudo pacman -S git i3-wm i3blocks picom kitty feh udiskie xss-lock i3lock networkmanager network-manager-applet maim xclip pulseaudio xorg-xrandr xorg-xset xorg-setxkbmap xorg-xinput lm_sensors nvidia-utils wireless_tools bluez bluez-utils playerctl base-devel libx11 libxinerama libxft
+Here's the command for Arch Linux users : ```bash
+sudo pacman -S git i3-wm i3blocks picom kitty feh udiskie xss-lock i3lock networkmanager network-manager-applet maim xclip pulseaudio xorg-xrandr xorg-xset xorg-setxkbmap xorg-xinput lm_sensors nvidia-utils wireless_tools bluez bluez-utils playerctl base-devel libx11 libxinerama libxft ```
 
 
 Here is a step by step guide to the installation :
 
 1. Clone the repo
+```bash
 git clone https://github.com/Donkan1911/Donkan-i3wm-rice.git ~/dotfiles
 cd ~/dotfiles
-
+```
 2. Build and install dmenu
+```bash 
 cd ~/dotfiles/dmenu
 make clean
 make
 sudo make install
-
+```
 3. Link the config files into place
+```bash
 mkdir -p ~/.config/i3 ~/.config/i3blocks ~/.config/kitty ~/.config/picom
 ln -s ~/dotfiles/i3/config ~/.config/i3/config
 ln -s ~/dotfiles/i3blocks/config ~/.config/i3blocks/config
@@ -55,6 +59,7 @@ ln -s ~/dotfiles/i3blocks/scripts ~/.config/i3blocks/scripts
 ln -s ~/dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf
 ln -s ~/dotfiles/picom/picom.conf ~/.config/picom/picom.conf
 chmod +x ~/dotfiles/i3blocks/scripts/power.sh
+```
 
 4. To log into i3, pick i3 in your display manager or add "exec i3" to your .xinitrc file if you use startx
 
