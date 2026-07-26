@@ -90,7 +90,7 @@ ls /sys/class/power_supply/
 and replace "BAT1" by whatever shows up  
 If you are on a desktop computer with no battery, you can delete the block from the config
 
-4. Monitor layout in ~/dotfiles/i3/config
+3. Monitor layout in ~/dotfiles/i3/config
 
 How to adapt it: run 
 ```bash
@@ -99,15 +99,15 @@ xrandr
 to see a list of your output names and rewrite the xrandr line in the config with whatever monitor and options you want  
 You can delete this line if you only have one screen, i3 will just use whatever resolution and refresh rate is automatically detected
 
-5. Wallpaper in ~/dotfiles/i3/config
+4. Wallpaper in ~/dotfiles/i3/config
 
 How to change it: replace the path with your own image
 
-6. Keyboard layout in ~/dotfiles/i3/config
+5. Keyboard layout in ~/dotfiles/i3/config
 
 How to change it: just replace "us -variant intl" with whatever your keyboard layout is
 
-7. CPU temperature block in ~/dotfiles/i3blocks/config
+6. CPU temperature block in ~/dotfiles/i3blocks/config
 
 How to adapt it: run 
 ```bash
@@ -115,7 +115,7 @@ sensors
 ```
 to find the correct temperature label for your CPU, then replace "Package id 0" with it
 
-8. GPU temperature block in ~/dotfiles/i3blocks/config
+7. GPU temperature block in ~/dotfiles/i3blocks/config
 
 How to change it : for Nvidia GPUs just make sure you have the Nvidia driver and nvidia-utils installed, for other GPUs I have absolutely no idea what to do so you can either do the research yourself or delete this block.
 
