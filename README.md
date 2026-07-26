@@ -4,7 +4,7 @@ Hello future Donkan or random user of my i3wm rice, this is the first ever rice 
 Make sure to read all of this carefully unless you know what you're doing but I'm pretty sure all of what is below works.
 
 
-Before you can clone this rice you have to install a few packages:
+Before you can clone this rice you have to install a few packages:  
 
 i3-wm, 
 i3blocks, 
