@@ -1,7 +1,6 @@
 <img width="3200" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/6494ea7b-c841-45f4-a712-6370e63383dc" />
 
-Hello future Donkan or random user of my i3wm rice, this is the first ever rice that I publish online so I hope you like it because I use it almost everyday 🫪🍚
-
+Hello future Donkan or random user of my i3wm rice, this is the first ever rice that I publish online so I hope you like it because I use it almost everyday 🫪🍚  
 Make sure to read all of this carefully unless you know what you're doing and I'm pretty sure all of what is below works
 
 Before you can clone this rice you have to install a few packages :
@@ -84,8 +83,7 @@ How to adapt it :
 ```bash
 run ls /sys/class/power_supply/ 
 ```
-and replace "BAT1" by whatever shows up
-
+and replace "BAT1" by whatever shows up  
 If you are on a desktop computer with no battery, you can delete the block from the config
 
 4. Monitor layout in ~/dotfiles/i3/config
@@ -94,8 +92,7 @@ How to adapt it : run
 ```bash
 xrandr
 ```
-to see a list of your output names and rewrite the xrandr line in the config with whatever monitor and options you want
-
+to see a list of your output names and rewrite the xrandr line in the config with whatever monitor and options you want  
 You can delete this line if you only have one screen, i3 will just use whatever resolution and refresh rate is automatically detected
 
 5. Wallpaper in ~/dotfiles/i3/config
