@@ -34,10 +34,11 @@ libx11,
 libxinerama, 
 libxft, 
 git
+ttf-dejavu
 
 Here's the command for Arch Linux users:
 ```bash
-sudo pacman -S git i3-wm i3blocks picom kitty feh udiskie xss-lock i3lock networkmanager network-manager-applet maim xclip pulseaudio xorg-xrandr xorg-xset xorg-setxkbmap xorg-xinput lm_sensors nvidia-utils wireless_tools bluez bluez-utils playerctl base-devel libx11 libxinerama libxft
+sudo pacman -S git ttf-dejavu i3-wm i3blocks picom kitty feh udiskie xss-lock i3lock networkmanager network-manager-applet maim xclip pulseaudio xorg-xrandr xorg-xset xorg-setxkbmap xorg-xinput lm_sensors nvidia-utils wireless_tools bluez bluez-utils playerctl base-devel libx11 libxinerama libxft
 ```
 
 
