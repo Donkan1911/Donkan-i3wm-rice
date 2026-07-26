@@ -86,3 +86,4 @@ How to adapt it : run "sensors" to find the correct temperature label for your C
 How to change it : for Nvidia GPUs just make sure you have the Nvidia driver and nvidia-utils installed, for other GPUs I have absolutely no idea what to do so you can either do the research yourself or delete this block
 
 I'm pretty sure that I didn't forget to mention any options that need to be adapted to your gear, but if I did, then good luck I guess 🫪
+<img width="3200" height="1080" alt="image" src="https://github.com/user-attachments/assets/e5a94343-3c9b-46f5-915b-d6e9b39a5b75" />
