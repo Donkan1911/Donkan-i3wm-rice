@@ -1,6 +1,8 @@
 <img width="3200" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/6494ea7b-c841-45f4-a712-6370e63383dc" />
+<img width="1440" height="900" alt="screenshot-rice" src="https://github.com/user-attachments/assets/491e9591-740e-4d38-81ee-910e63b76f21" />
 
-Hello future Donkan or random user of my i3wm rice, this is the first ever rice that I publish online so I hope you like it because I use it almost everyday. 🫪🍚  
+
+Hello future Donkan or random user of my i3wm rice, this is the first ever rice that I publish online so I hope you like it because I use it almost everyday. 🍚  
 Make sure to read all of this carefully unless you know what you're doing but I'm pretty sure all of what is below works.
 
 
