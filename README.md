@@ -32,9 +32,10 @@ libxinerama,
 libxft, 
 git
 
-Here's the command for Arch Linux users : ```bash
-sudo pacman -S git i3-wm i3blocks picom kitty feh udiskie xss-lock i3lock networkmanager network-manager-applet maim xclip pulseaudio xorg-xrandr xorg-xset xorg-setxkbmap xorg-xinput lm_sensors nvidia-utils wireless_tools bluez bluez-utils playerctl base-devel libx11 libxinerama libxft ```
-
+Here's the command for Arch Linux users :
+```bash
+sudo pacman -S git i3-wm i3blocks picom kitty feh udiskie xss-lock i3lock networkmanager network-manager-applet maim xclip pulseaudio xorg-xrandr xorg-xset xorg-setxkbmap xorg-xinput lm_sensors nvidia-utils wireless_tools bluez bluez-utils playerctl base-devel libx11 libxinerama libxft
+```
 
 Here is a step by step guide to the installation :
 
@@ -67,7 +68,11 @@ chmod +x ~/dotfiles/i3blocks/scripts/power.sh
 To make sure that this rice matches your gear and machine, you will have to delete some options or change some settings :
 
 1. Mouse name and acceleration in ~/dotfiles/i3/config
-How to adapt it : run the command "xinput list" and find your mouse's exact name and replace "ROCCAT ROCCAT Kone Pro" with it and change the acceleration to whatever you want
+How to adapt it : run the command 
+```bash 
+xinput list 
+``` 
+and find your mouse's exact name and replace "ROCCAT ROCCAT Kone Pro" with it and change the acceleration to whatever you want
 
 2. Battery block in ~/dotfiles/i3blocks/config
 How to adapt it : run "ls /sys/class/power_supply/" and replace "BAT1" by whatever shows up
