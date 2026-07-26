@@ -1,4 +1,3 @@
 dmenu/*.o
 dmenu/dmenu
-dmenu/dmenu_path
 dmenu/stest
