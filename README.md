@@ -1,3 +1,5 @@
+<img width="3200" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/6494ea7b-c841-45f4-a712-6370e63383dc" />
+
 Hello future Donkan or random user of my i3wm rice, this is the first ever rice that I publish online so I hope you like it because I use it almost everyday 🫪🍚
 Make sure to read all of this carefully unless you know what you're doing and I'm pretty sure all of what is below works
 
@@ -68,6 +70,7 @@ chmod +x ~/dotfiles/i3blocks/scripts/power.sh
 To make sure that this rice matches your gear and machine, you will have to delete some options or change some settings :
 
 1. Mouse name and acceleration in ~/dotfiles/i3/config
+
 How to adapt it : run the command 
 ```bash 
 xinput list 
@@ -75,25 +78,43 @@ xinput list
 and find your mouse's exact name and replace "ROCCAT ROCCAT Kone Pro" with it and change the acceleration to whatever you want
 
 2. Battery block in ~/dotfiles/i3blocks/config
-How to adapt it : run "ls /sys/class/power_supply/" and replace "BAT1" by whatever shows up
+
+How to adapt it : 
+```bash
+run ls /sys/class/power_supply/ 
+```
+and replace "BAT1" by whatever shows up
+
 If you are on a desktop computer with no battery, you can delete the block from the config
 
-3. Monitor layout in ~/dotfiles/i3/config
-How to adapt it : run "xrandr" to see a list of your output names and rewrite the xrandr line in the config with whatever monitor and options you want
+4. Monitor layout in ~/dotfiles/i3/config
+
+How to adapt it : run 
+```bash
+xrandr
+```
+to see a list of your output names and rewrite the xrandr line in the config with whatever monitor and options you want
+
 You can delete this line if you only have one screen, i3 will just use whatever resolution and refresh rate is automatically detected
 
-4. Wallpaper in ~/dotfiles/i3/config
+5. Wallpaper in ~/dotfiles/i3/config
+
 How to change it : replace the path with your own image
 
-5. Keyboard layout in ~/dotfiles/i3/config
+6. Keyboard layout in ~/dotfiles/i3/config
+
 How to change it : just replace "us -variant intl" with whatever your keyboard layout is
 
-6. CPU temperature block in ~/dotfiles/i3blocks/config
-How to adapt it : run "sensors" to find the correct temperature label for your CPU, then replace "Package id 0" with it
+7. CPU temperature block in ~/dotfiles/i3blocks/config
 
-7. GPU temperature block in ~/dotfiles/i3blocks/config
+How to adapt it : run 
+```bash
+sensors
+```
+to find the correct temperature label for your CPU, then replace "Package id 0" with it
+
+8. GPU temperature block in ~/dotfiles/i3blocks/config
+
 How to change it : for Nvidia GPUs just make sure you have the Nvidia driver and nvidia-utils installed, for other GPUs I have absolutely no idea what to do so you can either do the research yourself or delete this block
 
 I'm pretty sure that I didn't forget to mention any options that need to be adapted to your gear, but if I did, then good luck I guess 🫪
-
-<img width="3200" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/6494ea7b-c841-45f4-a712-6370e63383dc" />
